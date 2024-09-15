@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ic {
+    width: 50px;
+    height: 50px;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+}
+
+.searchbtn,
+input[type="search"] {
+    background-color: aliceblue;
+    color: gray;
+}
+
+.searchbtn {
+    padding: 8px 12px;
+    border-radius: 10px 0 0 10px;
+}
+
+input[type="search"] {
+    border-radius: 0 10px 10px 0;
+}
+
+.categories {
+    background-color: white;
+    height: 130px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.756);
+}
+
+.categories img {
+    width: 80px;
+    height: 80px;
+}
+
+.banner {
+    background-color: white;
+}
+
+.banner img {
+    height: 200px;
+}
+
+.carousel-div img {
+    height: 300px;
+}
+
+.electronics {
+    background-color: white;
+    width: 80%;
+}
+
+.electronics .card {
+    height: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    transition: 0.2s ease;
+}
+
+.card img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+.dropdown a{
+    border-radius: 8px;
+}
+.dropdown .log:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+footer li{
+    list-style: none;
+    color: white;
+    font-size: smaller;
+}
+footer h6{
+    color: gray;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: smaller;
+}
+footer span{
+    color: gray;
+    font-size: smaller;
+}
+.mail{
+    border-left: 1px solid gray;
+}
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .flight-img {
+        width: 100%; /* Make the image take full width on mobile */
+        margin-top: 20px; /* Add space above the flight image */
+    }
+}
